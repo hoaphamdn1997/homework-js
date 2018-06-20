@@ -1,0 +1,80 @@
+.top-bar {
+    position: relative;
+    background: #00d9ff;
+    line-height: 50px;
+}
+
+.main-menu {
+    background: #f7f7f7;
+    position: relative;
+}
+.main-menu {
+    position: relative;
+    margin-top: 20px;
+}
+.main-menu .navbar-header {
+    padding: 14px 0px;
+    float: left;
+}
+.main-menu .navbar-toggle {
+    float: left ;
+    margin: 0;
+    display: block;
+}
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+button {
+    border: none;
+    outline: none;
+    box-shadow: none;
+    display: block;
+    padding: 0;
+    background: transparent;
+}
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+button, html input[type=button], input[type=reset], input[type=submit] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+button, select {
+    text-transform: none;
+}
+button {
+    overflow: visible;
+}
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font: inherit;
+    color: inherit;
+}
+.dropdown {
+    position: relative;
+}
+mobile-menu > li > a, .mobile-menu > li > ul > li > a, .mobile-menu > li > ul > li > ul > li > a {
+    padding: 10px 20px;
+    line-height: 22px;
+    color: black;
+    display: block;
+    text-transform: uppercase;
+    font-size: 14px;
+    border-top: 1px solid #fff;
+}
+a:hover, a:focus, a:visited {
+    text-decoration: none;
+    outline: none;
+    position: relative;
+}
